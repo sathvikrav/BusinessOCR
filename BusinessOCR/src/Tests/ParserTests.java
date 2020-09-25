@@ -73,5 +73,18 @@ public class ParserTests {
 				+ "Phone: 4105551234\r\n"
 				+ "Email: rhuang@huang.com", info.toString());
 	}
+	
+	@Test
+	//Here we have an edge case where a parameter is not provided at all
+	public void testMissingInfo1() {
+		info = new ContactInfo("Huang Enterprises\r\n"
+				+ "Senior Software Engineer\r\n"
+				+ "(410)555-1234\r\n"
+				+ "rhuang@huang.com");
+		
+		assertEquals("Name: \r\n"
+				+ "Phone: 4105551234\r\n"
+				+ "Email: rhuang@huang.com", info.toString());
+	}
 
 }
