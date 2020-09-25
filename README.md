@@ -8,3 +8,5 @@ Instructions for Running Business OCR:
 2. In the box, under the label "Please enter the business card information" please enter the information and click submit
 
 3. In the box under the submit button, you should find the name, email, and phone number.
+
+![image](https://user-images.githubusercontent.com/28583546/94214247-07148400-fea7-11ea-9708-976d1c01df75.png)
